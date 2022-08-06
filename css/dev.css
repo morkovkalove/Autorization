@@ -1,0 +1,118 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+html, body {
+  background: #3C4652;
+}
+
+h1, p, button, input {
+  letter-spacing: 0.1em;
+}
+
+img {
+  max-width: 100%;
+}
+
+input, button {
+  font-size: 18px;
+  padding-left: 10px;
+  border-radius: 10px;
+  border: 2px solid #7B7F84;
+  background-color: #3C4652;
+  color: white;
+  outline: none;
+  min-width: 405px;
+  min-height: 50px;
+
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.wpapper {
+  min-width: 1440px;
+}
+
+
+/* .container {
+  max-width: 80%;
+  margin: 0 auto;
+} */
+
+.change_theme {
+  display: flex;
+  justify-content: flex-end;
+  margin: 40px 100px 0 0;
+}
+
+.change_theme img {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  position: fixed;
+}
+
+.change_theme img:hover {
+  opacity: 0.7;
+}
+
+.day {
+  display: none;
+}
+
+
+.datas {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.inputs {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.inputs img, input:last-child {
+  margin-top: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+
+}
+
+.logo h1 {
+  color: white;
+  padding: 5px;
+}
+
+
+.btn {
+  margin-top: 20px;
+}
+
+.log_in {
+  text-align: center;
+  padding: 0;
+  border: 2px solid #E5555D;
+  cursor: pointer;
+}
+
+.log_in:hover {
+  background-color: #415870;
+  border: 2px solid #eb313a;
+  transition: all 0.6s ease-in-out;
+}
+
